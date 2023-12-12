@@ -1,0 +1,102 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url('../Image/bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+  }
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .info-box {
+    border: 1px dashed #fff;
+    border-radius: 1px; /* You mentioned 1px round border */
+    height: 400px;
+    margin: 10px;
+  }
+  
+  .navbar-nav .nav-item a {
+    color: white;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-nav .nav-item a:hover {
+    color: #ffc107; /* Change to your desired hover color */
+    border-bottom: 1px solid #ffc107;
+  }
+  
+  /* Card */
+  
+  /* Center the content on the page */
+  .container {
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+  }
+ 
+
+
+  /* Projects */
+
+  /* Add these styles to your existing styles.css file */
+
+/* Project Cards */
+/* Style the card header */
+.card {
+  flex: 0 0 30%; /* 30% width for each card */
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Add a hover effect to the card */
+.card:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+}
+
+/* Style the card header */
+.card-header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the card title */
+.card-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Style the card body */
+.card-body {
+  padding: 20px;
+}
+
+/* Style the pricing information */
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  color: #3498db;
+}
+
+/* Style the features list */
+.features {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.features li {
+  margin-bottom: 10px;
+  color: black;
+}

@@ -1,0 +1,122 @@
+body {
+    background-image: url('../Image/bgimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: black;
+
+    
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-bottom: 60px; /* Adjust as needed based on the footer height */
+}
+
+.navbar-nav .nav-item a {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-item a:hover {
+    color: #ffc107; /* Change to your desired hover color */
+    border-bottom: 1px solid #ffc107;
+}
+
+
+
+
+.education-section {
+    padding: 20px 0;
+   
+}
+
+.education-details {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.education-details img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.education-details h2 {
+    color: #007bff;
+}
+
+
+/*ranbow*/
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+@keyframes rotate {
+	100% {
+		transform: rotate(1turn);
+	}
+}
+
+.rainbow {
+	position: relative;
+	z-index: 0;
+	
+	border-radius: 10px;
+	overflow: hidden;
+	padding: 2rem;
+	
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	
+	
+	&::before {
+		content: '';
+		position: absolute;
+		z-index: -2;
+		left: -50%;
+		top: -50%;
+		width: 200%;
+		height: 200%;
+		background-color: #399953;
+		background-repeat: no-repeat;
+		background-size: 50% 50%, 50% 50%;
+		background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+		background-image: linear-gradient(#399953, #399953), linear-gradient(#fbb300, #fbb300), linear-gradient(#d53e33, #d53e33), linear-gradient(#377af5, #377af5);
+		animation: rotate 4s linear infinite;
+	}
+	
+	&::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		left: 6px;
+		top: 6px;
+		width: calc(100% - 12px);
+		height: calc(100% - 12px);
+		background: rgb(132, 52, 52);
+		border-radius: 5px;
+	}
+}
+
+/*
+ranbow
+*/
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

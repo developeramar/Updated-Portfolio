@@ -1,0 +1,23 @@
+ <div class="experience rounded d-block">
+                        <div class="card-header">
+                            <h2 class="card-title">
+                                Book Schedule For Fitness Center .</h2>
+                            <p> Technologies used : Reactjs , Tailwind CSS.</p>
+                            <p>Chennai, India | Nov 2023 - Nov 2023 </p>
+
+                            <hr>
+                        </div>
+                        <div class="experience-item">
+                            <!--  <h3>Web Developer | Shiash Info Solution Pvt.Ltd (Remote Internship)</h3>-->
+
+                            <p>
+                                Embark on your fitness journey with unparalleled ease by utilizing our innovative
+                                booking platform tailored for fitness enthusiasts. Our application, designed with user
+                                convenience in mind, empowers you to schedule, edit, delete, and save your fitness
+                                appointments seamlessly. Welcome to a new era of hassle-free booking experiences,
+                                complete with customizable date options to suit your fitness center's schedule.
+
+                            </p>
+                        </div>
+
+                    </div>

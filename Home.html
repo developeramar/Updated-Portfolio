@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <!-- Bootstrap CSS (Bootstrap 5) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./ExtraStyle/HomeStyle.css">
+    <style>
+      
+    </style>
+</head>
+
+<body>
+
+    <!-- Transparent Header with Navigation using Bootstrap 5 Offcanvas -->
+    <header class="py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg  navbar-dark">
+                <a class="navbar-brand" href="#">Know Me.</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Sections</h5>
+                        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body justify-content-center">
+
+                        <ul class="navbar-nav ">
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="Home.html">Home</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="education.html">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="skills.html">Skills & Experience</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="projects.html">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="certifications.html">Certifications</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="honors.html"> Honors & Awards </a>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Two Sections - Left: Image Box, Right: Info Box -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="info-box text-center dashed-rotate-border">
+                    <div class="rotating-border rotating-border--black-white  rotating-border--reverse mx-auto d-block">                   
+                         <img src="./Image/Amr-removebg.png" class="img-fluid rounded-circle mx-auto d-block" alt="Image" style="width: 367px; height: 367px;">                    <!-- Placeholder content for the image box -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="info-box p-5 g-col-6">
+                    <!-- Placeholder content for info box -->
+                    <h1>Amar Kumar Chaudhari</h1>
+                    <p>Email: chaudhariamarkumar662@gmail.com | Mobile: +91-6206548812</p>
+                    <p>Portfolio: <a href="https://regal-meringue-293d7f.netlify.app" target="_blank">https://regal-meringue-293d7f.netlify.app</a></p>
+                    <p>GitHub: <a href="https://github.com/developeramar" target="_blank">https://github.com/developeramar</a></p>
+                    <p>LinkedIn: <a href="www.linkedin.com/in/amar-patelse62065" target="_blank">www.linkedin.com/in/amar-patelse62065</a></p>
+                    <p>Current Address: Chennai -603103</p>
+
+
+                     <!-- Download Resume Button -->
+                     <a href="./Image/Updated_newresume_amar.pdf" download class="btn btn-primary mx-auto d-flex justify-content-center">Download Resume</a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br><br>
+    <hr>
+    <footer class="text-center">
+      <p>&copy; 2023 Know Me. All rights reserved.</p>
+    </footer>
+    <br>
+    <!-- Bootstrap JS and dependencies (Bootstrap 5) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
