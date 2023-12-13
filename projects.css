@@ -45,6 +45,15 @@ body {
 
 /* Project Cards */
 /* Style the card header */
+
+
+
+/* Style the row of cards */
+.card-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
 .card {
   flex: 0 0 30%; /* 30% width for each card */
   background-color: #fff;
@@ -99,4 +108,7 @@ body {
 .features li {
   margin-bottom: 10px;
   color: black;
+}
+.glow:hover {
+  box-shadow: 0 0 20px rgba(52, 152, 219, 0.8), 0 0 40px rgba(52, 152, 219, 0.6), 0 0 60px rgba(52, 152, 219, 0.4);
 }
