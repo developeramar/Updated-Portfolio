@@ -42,6 +42,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+ 
 }
 
 /* Style each card */
@@ -51,6 +52,7 @@ header {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   overflow: hidden;
+  
   transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
